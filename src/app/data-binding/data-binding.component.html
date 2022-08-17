@@ -1,0 +1,15 @@
+<!--Interpolation binding-->
+<h1 style="text-align: center">We are testing {{ name }}</h1>
+
+<h2 style="text-align: center">Welcome to the {{ topic }} tutor</h2>
+
+<!--property binding-->
+<img [src]="image" alt="" style="height: 20%; width: 10%" class="center" />
+
+<br />
+<div style="text-align: center">
+  <button (click)="onClick()">Subscribe to my learning</button>
+
+  <input [(ngModel)]="value" type="text" />
+  {{ value }}
+</div>
