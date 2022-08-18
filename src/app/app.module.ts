@@ -7,6 +7,8 @@ import { TextcomponentComponent } from './textcomponent/textcomponent.component'
 import { ImagecomponentComponent } from './imagecomponent/imagecomponent.component';
 import { EmpInfoComponent } from './emp-info/emp-info.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
+import { FormsComponent } from './forms/forms.component';
+import { NavbarComponent } from './Componets/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
     TextcomponentComponent,
     ImagecomponentComponent,
     EmpInfoComponent,
-    DataBindingComponent
+    DataBindingComponent,
+    FormsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

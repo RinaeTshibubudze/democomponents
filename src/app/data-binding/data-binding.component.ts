@@ -15,7 +15,7 @@ export class DataBindingComponent implements OnInit {
   public name = "Interpolation binding"
   public topic = "Data binding"
   public value = ""
-  public image = "/assets/Rinae.png"
+  public image = "/assets/Reakona.png"
 
   onClick() {
     console.log("Thank you for subscribing")
